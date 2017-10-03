@@ -9,9 +9,7 @@ $ yarn install
 ## Reproduce
 
 ```
-$ yarn start
-yarn start v0.27.5
-$ echo "====================\nCompiled source:\n====================" && babel index.js && echo "====================\nRuntime exception:\n====================" && babel-node index.js
+$ yarn start -s
 ====================
 Compiled source:
 ====================
