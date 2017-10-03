@@ -1,0 +1,15 @@
+{
+  "name": "babel-7-destructuring-imported-variable-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eloy Durán <eloy.de.enige@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "beta",
+    "babel-node": "beta",
+    "babel-preset-es2015": "beta"
+  },
+  "scripts": {
+    "start": "echo \"====================\\nCompiled source:\\n====================\" && babel index.js && echo \"====================\\nRuntime exception:\\n====================\" && babel-node index.js"
+  }
+}
